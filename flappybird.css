@@ -19,10 +19,10 @@ body {
     align-items: center;
 }
 
-/* Add a simple border so we can see the canvas clearly */
+/* Add a simple border and background color */
 #game {
     border: 2px solid #db2a2a;
-    background-color: #edb3c2; 
+    background-color: #c992a1; 
 }
 .game-container h1 {
     position: absolute;
