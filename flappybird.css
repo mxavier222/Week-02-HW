@@ -7,8 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: #70c5ce url("flappybird.png") no-repeat center center;
-    background-size: cover;
+    
 }
 
 /* Center the game canvas inside the container */
@@ -23,11 +22,7 @@ body {
 #game {
     border: 2px solid #db2a2a;
     background-color: #c992a1; 
+    background: url(flappybirdbg.png) no-repeat center;
+    background-size: cover;
 }
-.game-container h1 {
-    position: absolute;
-    margin-top: 20px;
-    color: black;
-    text-align: center;
-    font-size: 20px;
-}
+
